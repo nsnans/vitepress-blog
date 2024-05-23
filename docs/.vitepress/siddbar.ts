@@ -14,9 +14,9 @@ export const getSideBarList = (pathname: Path) => {
                     text: 'bugs',
                     collapsed: false,
                     items: [
-                        { text: '1', link: '/api-examples' },
-                        { text: '2', link: '/api-examples' },
-                        { text: '3', link: '/api-examples' }
+                        { text: 'videojs', link: '/components/web/vue/videojs' },
+                        { text: 'echart', link: '/components/web/vue/echart' },
+                        { text: 'viewer', link: '/components/web/vue/viewer' }
                     ]
                 },
             ]

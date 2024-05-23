@@ -9,6 +9,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
+  cleanUrls: true,
   themeConfig: {
     logo: that.logo,
     siteTitle: that.siteTitle,
@@ -17,11 +18,11 @@ export default defineConfig({
     },
     nav: navItem,
     sidebar: {
-      '/components/web/vue/': getSideBarList(Path.vue),
-      '/components/web/flutter/': getSideBarList(Path.flutter),
-      '/components/web/angular/': getSideBarList(Path.angular),
-      '/components/web/react/': getSideBarList(Path.react),
-      '/components/serve/nest/': getSideBarList(Path.nest),
+      '/components/web/vue': getSideBarList(Path.vue),
+      '/components/web/flutter': getSideBarList(Path.flutter),
+      '/components/web/angular': getSideBarList(Path.angular),
+      '/components/web/react': getSideBarList(Path.react),
+      '/components/serve/nest': getSideBarList(Path.nest),
     },
     socialLinks: [
       { icon: 'github', link: that.github }

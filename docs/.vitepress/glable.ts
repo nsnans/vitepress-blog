@@ -4,7 +4,7 @@
 export const that = {
     title: "Blog",
     description: "This is my VitePress blog",
-    logo: './favicon.ico',
+    logo: '/logo.png',
     siteTitle: 'my VitePress blog',
     github: 'https://github.com/vuejs/vitepress'
 }
