@@ -1,28 +1,30 @@
 import { defineConfig } from 'vitepress'
+import { that } from './glable'
+import { navItem } from './nav'
+import { Path, getSideBarList } from './siddbar'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "VitePress blog",
-  description: "This is my VitePress blog",
+  title: that.title,
+  description: that.description,
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    logo: that.logo,
+    siteTitle: that.siteTitle,
+    search: {
+      provider: 'local'
+    },
+    nav: navItem,
+    sidebar: {
+      '/components/web/vue/': getSideBarList(Path.vue),
+      '/components/web/flutter/': getSideBarList(Path.flutter),
+      '/components/web/angular/': getSideBarList(Path.angular),
+      '/components/web/react/': getSideBarList(Path.react),
+      '/components/serve/nest/': getSideBarList(Path.nest),
+    },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: that.github }
     ]
   }
 })
