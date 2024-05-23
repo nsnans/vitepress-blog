@@ -1,5 +1,6 @@
 node_modules
 /dist
+/.vitepress/dist
 
 # Log files
 npm-debug.log*
