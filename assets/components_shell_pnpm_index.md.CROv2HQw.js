@@ -1,0 +1,8 @@
+import{_ as s,c as a,o as n,a3 as i}from"./chunks/framework.CicJpfbE.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"components/shell/pnpm/index.md","filePath":"components/shell/pnpm/index.md"}'),e={name:"components/shell/pnpm/index.md"},t=i(`<div class="language-shell vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">shell</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># 检查有新版本的依赖包</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">pnpm</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> outdated</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># 升级 vue-i18n 单个依赖包至最新版本</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">pnpm</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> update</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> vue-i18n@latest</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#6A737D;--shiki-dark:#6A737D;"># 升级项目中所有依赖包</span></span>
+<span class="line"><span style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> pnpm</span><span style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> update</span><span style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;"> --latest</span></span></code></pre></div>`,1),p=[t];function l(h,d,c,k,o,r){return n(),a("div",null,p)}const F=s(e,[["render",l]]);export{m as __pageData,F as default};
