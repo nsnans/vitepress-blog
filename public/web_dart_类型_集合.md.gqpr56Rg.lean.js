@@ -1,1 +1,0 @@
-import{_ as s,c as i,o as a,a3 as t}from"./chunks/framework.CiQwDDJ9.js";const c=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"web/dart/类型/集合.md","filePath":"web/dart/类型/集合.md"}'),n={name:"web/dart/类型/集合.md"},h=t("",7),e=[h];function l(p,k,r,d,E,o){return a(),i("div",null,e)}const y=s(n,[["render",l]]);export{c as __pageData,y as default};
