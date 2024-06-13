@@ -23,4 +23,4 @@ function resetCount() {
     clearTimeout(timer);
 }
 
-console.log('5次r，默认字体');
+console.log('快速按5次r，恢复默认字体');
