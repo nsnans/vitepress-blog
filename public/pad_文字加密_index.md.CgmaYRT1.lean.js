@@ -1,0 +1,2 @@
+import{_ as e,c as t,o as a,j as n}from"./chunks/framework.DFdKsyRf.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page","footer":false},"headers":[],"relativePath":"pad/文字加密/index.md","filePath":"pad/文字加密/index.md"}'),o={name:"pad/文字加密/index.md"},s=n("iframe",{style:{width:"100%",height:"calc(100vh - var(--vp-nav-height))","min-height":"500px"},src:`http://hi.pcmoe.net/index.html
+`},null,-1),i=[s];function r(c,d,p,h,l,_){return a(),t("div",null,i)}const x=e(o,[["render",r]]);export{f as __pageData,x as default};

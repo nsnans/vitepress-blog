@@ -24,3 +24,14 @@ function resetCount() {
 }
 
 console.log('快速按5次r，恢复默认字体');
+
+// https://blog.csdn.net/weixin_64433668/article/details/135605147
+// 防止网页被嵌入 iframe
+try {
+    top.location.hostname;
+    if (top.location.hostname !== window.location.hostname) {
+        top.location.href = window.location.href;
+    }
+} catch (e) {
+    top.location.href = window.location.href;
+}
