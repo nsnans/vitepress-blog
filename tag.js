@@ -86,7 +86,7 @@ readMarkdownFilesInDirectory(folderPath, excludedFolders, excludedPrefixes)
 
         // 使用 miao-lang 加密 JSON 字符串
         const encryptedJSON = Miao.default.encode(markdownFilesJSON);
-
+        return
         // 将加密后的JSON字符串写入文件
         fs.promises.writeFile(outputFilePath, encryptedJSON, 'utf8')
             .then(() => {
