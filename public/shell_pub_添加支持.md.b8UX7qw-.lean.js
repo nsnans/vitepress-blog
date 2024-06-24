@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as i,a3 as t}from"./chunks/framework.D3qywLA5.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"shell/pub/添加支持.md","filePath":"shell/pub/添加支持.md"}'),e={name:"shell/pub/添加支持.md"},n=t("",3),l=[n];function h(p,r,k,o,c,d){return i(),a("div",null,l)}const g=s(e,[["render",h]]);export{F as __pageData,g as default};
