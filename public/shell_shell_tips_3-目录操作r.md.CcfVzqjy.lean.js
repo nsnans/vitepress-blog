@@ -1,0 +1,1 @@
+import{_ as e,K as t,J as s}from"./chunks/framework.BqgjGzDK.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"shell/shell/tips/3-目录操作r.md","filePath":"shell/shell/tips/3-目录操作r.md"}'),r={name:"shell/shell/tips/3-目录操作r.md"};function a(l,_,o,n,c,p){return s(),t("div")}const h=e(r,[["render",a]]);export{d as __pageData,h as default};
