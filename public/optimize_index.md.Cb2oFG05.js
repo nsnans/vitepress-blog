@@ -1,1 +1,0 @@
-import{_ as e,O as t,N as a}from"./chunks/framework.CDdhbaWU.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"optimize/index.md","filePath":"optimize/index.md"}'),i={name:"optimize/index.md"};function n(o,r,s,c,d,p){return a(),t("div")}const f=e(i,[["render",n]]);export{_ as __pageData,f as default};

@@ -1,1 +1,0 @@
-import{O as e,N as t}from"./chunks/framework.CDdhbaWU.js";const r=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"layout/widgets/Tags/index.md","filePath":"layout/widgets/Tags/index.md"}'),a={name:"layout/widgets/Tags/index.md"},d=Object.assign(a,{setup(s){return(o,i)=>(t(),e("div"))}});export{r as __pageData,d as default};

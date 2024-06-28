@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CiO4BLJC.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"optimize/index.md","filePath":"optimize/index.md"}'),i={name:"optimize/index.md"};function o(n,r,s,c,d,p){return a(),t("div")}const f=e(i,[["render",o]]);export{_ as __pageData,f as default};

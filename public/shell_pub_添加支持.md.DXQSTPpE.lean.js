@@ -1,1 +1,0 @@
-import{_ as s,O as a,N as i,aq as t}from"./chunks/framework.CDdhbaWU.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"shell/pub/添加支持.md","filePath":"shell/pub/添加支持.md"}'),e={name:"shell/pub/添加支持.md"},n=t("",3),l=[n];function h(p,r,k,d,o,c){return i(),a("div",null,l)}const g=s(e,[["render",h]]);export{F as __pageData,g as default};
