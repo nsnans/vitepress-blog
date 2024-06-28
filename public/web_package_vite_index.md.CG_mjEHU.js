@@ -1,0 +1,1 @@
+import{_ as e,O as t,N as a}from"./chunks/framework.CDdhbaWU.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"web/package/vite/index.md","filePath":"web/package/vite/index.md"}'),n={name:"web/package/vite/index.md"};function r(c,i,o,s,d,p){return a(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};
