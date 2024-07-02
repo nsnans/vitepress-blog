@@ -1,0 +1,1 @@
+import{_ as e,e as t,c as a}from"./chunks/framework.CRIP8SHs.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"optimize/index.md","filePath":"optimize/index.md"}'),i={name:"optimize/index.md"};function n(o,r,s,c,d,p){return a(),t("div")}const f=e(i,[["render",n]]);export{_ as __pageData,f as default};

@@ -1,1 +1,0 @@
-import{c as e,o as t}from"./chunks/framework.CiO4BLJC.js";const r=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"layout/widgets/Tags/index.md","filePath":"layout/widgets/Tags/index.md"}'),a={name:"layout/widgets/Tags/index.md"},d=Object.assign(a,{setup(s){return(o,i)=>(t(),e("div"))}});export{r as __pageData,d as default};
